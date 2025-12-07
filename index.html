@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SwiftShip - Smart Delivery Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">SwiftShip</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#services">Services</a>
+            <a href="#recent">Recent Deliveries</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Delivering Smiles, One Package at a Time</h1>
+            <p>
+                Track your parcels in real-time, manage deliveries,
+                and keep your customers happy with our smart logistics dashboard.
+            </p>
+            <button class="primary-btn">Schedule a Pickup</button>
+            <button class="secondary-btn">Track Your Order</button>
+        </div>
+        <div class="hero-card">
+            <h2>Today’s Snapshot</h2>
+            <ul>
+                <li><span>Packages Out for Delivery:</span> 42</li>
+                <li><span>Delivered Today:</span> 89</li>
+                <li><span>Average Delivery Time:</span> 38 mins</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Same-Day Delivery</h3>
+                <p>Fast and reliable delivery within the same day inside city limits.</p>
+            </div>
+            <div class="service-card">
+                <h3>Express Shipping</h3>
+                <p>Priority shipping with real-time tracking updates for every order.</p>
+            </div>
+            <div class="service-card">
+                <h3>Bulk Orders</h3>
+                <p>Optimized routes for businesses handling multiple daily shipments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔥 Recent Deliveries Section -->
+    <section id="recent" class="recent-deliveries">
+        <div class="section-header">
+            <h2>Recent Deliveries</h2>
+            <span class="badge">Live</span>
+        </div>
+
+        <div class="recent-grid">
+            <div class="delivery-card">
+                <div class="delivery-top">
+                    <span class="status delivered">Delivered</span>
+                    <span class="time">Today • 10:24 AM</span>
+                </div>
+                <h3>#DLV-1024</h3>
+                <p><strong>From:</strong> Pune Warehouse</p>
+                <p><strong>To:</strong> Kothrud, Pune</p>
+                <p><strong>Customer:</strong> Rohit B.</p>
+            </div>
+
+            <div class="delivery-card">
+                <div class="delivery-top">
+                    <span class="status in-transit">In Transit</span>
+                    <span class="time">Today • 09:10 AM</span>
+                </div>
+                <h3>#DLV-1019</h3>
+                <p><strong>From:</strong> Mumbai Hub</p>
+                <p><strong>To:</strong> Baner, Pune</p>
+                <p><strong>Customer:</strong> Anjali S.</p>
+            </div>
+
+            <div class="delivery-card">
+                <div class="delivery-top">
+                    <span class="status delayed">Delayed</span>
+                    <span class="time">Yesterday • 06:45 PM</span>
+                </div>
+                <h3>#DLV-0998</h3>
+                <p><strong>From:</strong> Nashik Center</p>
+                <p><strong>To:</strong> Viman Nagar, Pune</p>
+                <p><strong>Customer:</strong> Akash P.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need a custom delivery solution?</p>
+        <form class="contact-form">
+            <div class="form-row">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Email Address" required />
+            </div>
+            <textarea placeholder="Tell us about your requirement..." rows="4"></textarea>
+            <button type="submit" class="primary-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 SwiftShip Logistics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
